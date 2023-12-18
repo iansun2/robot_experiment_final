@@ -27,9 +27,13 @@
 // 3: speed setting
 int mode = 0;
 
+int16_t step = 0;
 uint16_t current_floor = 12;
 uint16_t target_floor = 1;
 uint16_t speed = 10;
+
+// 0: on, 1: off
+uint8_t seg7_blink_status = 0;
 
 
 void value_to_seg7(uint16_t val, uint8_t pos) {
@@ -47,8 +51,65 @@ void value_to_seg7(uint16_t val, uint8_t pos) {
 }
 
 
+void seg7_off(uint8_t pos) {
+	uint16_t origin = IORD(SEG7_BASE, 0);
+	if(pos == 0) {
+		origin &= 0xFF00;
+		IOWR(SEG7_BASE, 0, origin | 10 | (10 << 4));
+	}else {
+		origin &= 0xFF;
+		IOWR(SEG7_BASE, 0, origin | (10 << 8) | (10 << 12));
+	}
+}
+
+
+
+void set_timer_period(uint32_t timer_base, float period) {
+	uint32_t cnt = period * 10000000;
+	IOWR_ALTERA_AVALON_TIMER_PERIODL(  /* 對TIMER_PERIODL暫存器做寫入 */
+			timer_base,  /* timer的基底位址 */
+			(cnt) & 0xffff);     /* 取出CntValue的低16bit, 寫入Timeout periodh register */
+	IOWR_ALTERA_AVALON_TIMER_PERIODH(  /* 對TIMER_PERIODH暫存器做寫入 */
+			timer_base,  /* timer的基底位址 */
+			(cnt>>16) & 0xffff); /* 取出CntValue的高16bit, 寫入Timeout periodh register */
+}
+
+
+uint8_t isTimerOf(uint32_t timer_base) {
+	if((IORD_ALTERA_AVALON_TIMER_STATUS(timer_base) & 0x01) != 0x00) {
+		IOWR_ALTERA_AVALON_TIMER_STATUS( /* 對TIMER_STATUS暫存器做寫入 */
+				timer_base, /* timer的基底位址 */
+		        0);   /* clear TO bit in status register */
+		return 1;
+	}
+	return 0;
+}
+
+
+void show_step() {
+	uint16_t led = 0;
+	led = 0x1 << step;
+	IOWR(LED_BASE, 0, led);
+}
+
+
+
 int main()
 {
+	set_timer_period(SEG7_TIMER_BASE, 0.5);
+	IOWR_ALTERA_AVALON_TIMER_CONTROL( /* 對TIMER_CONTROL暫存器做寫入 */
+		    SEG7_TIMER_BASE,                                /* timer的基底位址 */
+		    ALTERA_AVALON_TIMER_CONTROL_START_MSK |    /* 啟動位元 */
+	        ALTERA_AVALON_TIMER_CONTROL_CONT_MSK);     /* 連續位元 */
+	IOWR(SEG7_TIMER_BASE, 0, 0);   /* clear TO bit in status register */
+
+	set_timer_period(FLOOR_TIMER_BASE, 0.05);
+	IOWR_ALTERA_AVALON_TIMER_CONTROL( /* 對TIMER_CONTROL暫存器做寫入 */
+			FLOOR_TIMER_BASE,                                /* timer的基底位址 */
+			ALTERA_AVALON_TIMER_CONTROL_START_MSK |    /* 啟動位元 */
+			ALTERA_AVALON_TIMER_CONTROL_CONT_MSK);     /* 連續位元 */
+	IOWR(FLOOR_TIMER_BASE, 0, 0);   /* clear TO bit in status register */
+
 	printf("Hello from Nios II!\n");
 	while(1) {
 		uint16_t button = IORD(BUTTON_BASE, 3);
@@ -62,6 +123,7 @@ int main()
 				printf("m0 sw1\n");
 				// goto floor setting mode
 				mode = 1;
+				seg7_blink_status = 0;
 				// clear button edge capture register
 				IOWR(BUTTON_BASE, 3, 0);
 			// button 2 pressed
@@ -74,11 +136,21 @@ int main()
 			}
 		// target floor setting mode
 		}else if(mode == 1) {
-			// show switch
-			value_to_seg7(sw, 0);
+
+			if(isTimerOf(SEG7_TIMER_BASE)) {
+				if(seg7_blink_status == 0) {
+					value_to_seg7(sw, 0);
+					seg7_blink_status = 1;
+				}else {
+					seg7_off(0);
+					seg7_blink_status = 0;
+				}
+			}
 			// button 1 pressed
 			if(button & 0x01) {
 				printf("m1 sw1\n");
+				// save sw as target floor
+				target_floor = sw;
 				// goto floor display mode
 				mode = 0;
 				// clear button edge capture register
@@ -107,13 +179,21 @@ int main()
 				printf("m2 sw2\n");
 				// goto speed setting mode
 				mode = 3;
+				seg7_blink_status = 0;
 				// clear button edge capture register
 				IOWR(BUTTON_BASE, 3, 0);
 			}
 		// speed setting mode
 		}else if(mode == 3) {
-			// show switch
-			value_to_seg7(sw, 0);
+			if(isTimerOf(SEG7_TIMER_BASE)) {
+				if(seg7_blink_status == 0) {
+					value_to_seg7(sw, 0);
+					seg7_blink_status = 1;
+				}else {
+					seg7_off(0);
+					seg7_blink_status = 0;
+				}
+			}
 			// button 1 pressed
 			if(button & 0x01) {
 				printf("m3 sw1\n");
@@ -124,6 +204,15 @@ int main()
 			// button 2 pressed
 			}else if(button & 0x02) {
 				printf("m3 sw2\n");
+				// save sw as speed
+				speed = sw;
+				printf("new speed: %u\n", speed);
+				set_timer_period(FLOOR_TIMER_BASE, 0.005f * (speed+1));
+				IOWR_ALTERA_AVALON_TIMER_CONTROL( /* 對TIMER_CONTROL暫存器做寫入 */
+							FLOOR_TIMER_BASE,                                /* timer的基底位址 */
+							ALTERA_AVALON_TIMER_CONTROL_START_MSK |    /* 啟動位元 */
+							ALTERA_AVALON_TIMER_CONTROL_CONT_MSK);     /* 連續位元 */
+				IOWR(FLOOR_TIMER_BASE, 0, 0);   /* clear TO bit in status register */
 				// goto speed display mode
 				mode = 2;
 				// clear button edge capture register
@@ -133,6 +222,30 @@ int main()
 
 		// show current floor
 		value_to_seg7(current_floor, 8);
+
+		// floor run
+		// up
+		if(current_floor < target_floor) {
+			if(isTimerOf(FLOOR_TIMER_BASE)) {
+				step ++;
+			}
+			if(step >= 10) {
+				step = 0;
+				current_floor ++;
+			}
+			show_step();
+
+		// down
+		}else if(current_floor > target_floor) {
+			if(isTimerOf(FLOOR_TIMER_BASE)) {
+				step --;
+			}
+			if(step < 0) {
+				step = 9;
+				current_floor --;
+			}
+			show_step();
+		}
 	}
 
   return 0;

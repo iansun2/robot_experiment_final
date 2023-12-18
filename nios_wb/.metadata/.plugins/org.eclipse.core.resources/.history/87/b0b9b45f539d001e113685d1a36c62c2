@@ -1,0 +1,214 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <system.h>
+#include <io.h>
+#include <unistd.h>
+#include <altera_avalon_timer_regs.h>
+#include <stdint.h>
+
+// 0: target floor display
+// 1: target floor setting
+// 2: speed display
+// 3: speed setting
+int mode = 0;
+
+uint16_t current_floor = 12;
+uint16_t target_floor = 1;
+uint16_t speed = 10;
+
+// 0: on, 1: off
+volatile uint8_t seg7_blink_status = 0;
+
+
+void value_to_seg7(uint16_t val, uint8_t pos) {
+	uint16_t seg7[2];
+	seg7[0] = val % 10;
+	seg7[1] = (val - seg7[0]) / 10;
+	uint16_t origin = IORD(SEG7_BASE, 0);
+	if(pos == 0) {
+		origin &= 0xFF00;
+		IOWR(SEG7_BASE, 0, origin | seg7[0] | (seg7[1] << 4));
+	}else {
+		origin &= 0xFF;
+		IOWR(SEG7_BASE, 0, origin | (seg7[0] << 8) | (seg7[1] << 12));
+	}
+}
+
+
+void seg7_off(uint8_t pos) {
+	uint16_t origin = IORD(SEG7_BASE, 0);
+	if(pos == 0) {
+		origin &= 0xFF00;
+		IOWR(SEG7_BASE, 0, origin | 10 | (10 << 4));
+	}else {
+		origin &= 0xFF;
+		IOWR(SEG7_BASE, 0, origin | (10 << 8) | (10 << 12));
+	}
+}
+
+
+
+void set_timer_period(uint32_t timer_base, float period) {
+	uint32_t cnt = period * 10000000;
+	IOWR_ALTERA_AVALON_TIMER_PERIODL(  /* 對TIMER_PERIODL暫存器做寫入 */
+			timer_base,  /* timer的基底位址 */
+			(cnt) & 0xffff);     /* 取出CntValue的低16bit, 寫入Timeout periodh register */
+	IOWR_ALTERA_AVALON_TIMER_PERIODH(  /* 對TIMER_PERIODH暫存器做寫入 */
+			timer_base,  /* timer的基底位址 */
+			(cnt>>16) & 0xffff); /* 取出CntValue的高16bit, 寫入Timeout periodh register */
+}
+
+
+uint8_t isTimerOf(uint32_t timer_base) {
+	if((IORD_ALTERA_AVALON_TIMER_STATUS(timer_base) & 0x01) != 0x00) {
+		IOWR_ALTERA_AVALON_TIMER_STATUS( /* 對TIMER_STATUS暫存器做寫入 */
+				timer_base, /* timer的基底位址 */
+		        0);   /* clear TO bit in status register */
+		return 1;
+	}
+	return 0;
+}
+
+
+
+int main()
+{
+	set_timer_period(SEG7_TIMER_BASE, 0.5);
+	IOWR_ALTERA_AVALON_TIMER_CONTROL( /* 對TIMER_CONTROL暫存器做寫入 */
+		    SEG7_TIMER_BASE,                                /* timer的基底位址 */
+		    ALTERA_AVALON_TIMER_CONTROL_START_MSK |    /* 啟動位元 */
+	        ALTERA_AVALON_TIMER_CONTROL_CONT_MSK);     /* 連續位元 */
+	IOWR(SEG7_TIMER_BASE, 0, 0);   /* clear TO bit in status register */
+
+	int test = 0;
+	while(1) {
+		if(isTimerOf(SEG7_TIMER_BASE)) {
+			if(test = 1) {
+				value_to_seg7(42, 0);
+				test = 0;
+			}else {
+				seg7_off(0);
+				test = 1
+			}
+		}
+	}
+
+	printf("Hello from Nios II!\n");
+	while(1) {
+		uint16_t button = IORD(BUTTON_BASE, 3);
+		uint16_t sw = IORD(SWITCH_BASE, 0);
+		// target floor display mode
+		if(mode == 0) {
+			// show target_floor
+			value_to_seg7(target_floor, 0);
+			// button 1 pressed
+			if(button & 0x01) {
+				printf("m0 sw1\n");
+				// goto floor setting mode
+				mode = 1;
+				seg7_blink_status = 0;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			// button 2 pressed
+			}else if(button & 0x02) {
+				printf("m0 sw2\n");
+				// goto speed display mode
+				mode = 2;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			}
+		// target floor setting mode
+		}else if(mode == 1) {
+
+			if(isTimerOf(SEG7_TIMER_BASE) && !seg7_blink_status) {
+				seg7_off(0);
+				printf("seg7 tim of 0->1\n");
+				seg7_blink_status = 1;
+
+			}else if(!seg7_blink_status) {
+				// show switch value
+				value_to_seg7(sw, 0);
+
+			}else if(isTimerOf(SEG7_TIMER_BASE) && seg7_blink_status) {
+				seg7_blink_status = 0;
+				printf("seg7 tim of 1->0\n");
+			}
+
+
+			// button 1 pressed
+			if(button & 0x01) {
+				printf("m1 sw1\n");
+				// goto floor display mode
+				mode = 0;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			// button 2 pressed
+			}else if(button & 0x02) {
+				printf("m1 sw2\n");
+				// goto floor display mode
+				mode = 0;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			}
+		// speed display mode
+		}else if(mode == 2) {
+			// show speed
+			value_to_seg7(speed, 0);
+			// button 1 pressed
+			if(button & 0x01) {
+				printf("m2 sw1\n");
+				// goto floor display mode
+				mode = 0;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			// button 2 pressed
+			}else if(button & 0x02) {
+				printf("m2 sw2\n");
+				// goto speed setting mode
+				mode = 3;
+				seg7_blink_status = 0;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			}
+		// speed setting mode
+		}else if(mode == 3) {
+			// show switch
+			value_to_seg7(sw, 0);
+			// button 1 pressed
+			if(button & 0x01) {
+				printf("m3 sw1\n");
+				// goto speed display mode
+				mode = 2;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			// button 2 pressed
+			}else if(button & 0x02) {
+				printf("m3 sw2\n");
+				// goto speed display mode
+				mode = 2;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			}
+		}
+
+		// show current floor
+		value_to_seg7(current_floor, 8);
+	}
+
+  return 0;
+}
