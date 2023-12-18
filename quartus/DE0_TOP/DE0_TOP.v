@@ -204,6 +204,7 @@ inout	[31:0]	GPIO1_D;				//	GPIO Connection 1 Data Bus
 //  REG/WIRE declarations
 //=======================================================
 wire	[2:0]	BUTTON; // Button after debounce
+wire  [15:0] SEG7;
 
 
 //=======================================================
@@ -237,5 +238,35 @@ button_debouncer	button_debouncer_inst2(
 //=======================================================
 //  Structural coding
 //=======================================================
+
+    qsys u0 (
+        .clk_50m_clk      (CLOCK_50),      //   clk_50m.clk
+        .reset_reset_n    (BUTTON[0]),    //     reset.reset_n
+        .areset_export    (0),    //    areset.export
+        .locked_export    (),    //    locked.export
+        .phasedone_export (), // phasedone.export
+        .sdram_addr       (DRAM_ADDR),       //     sdram.addr
+        .sdram_ba         ({DRAM_BA_1, DRAM_BA_0}),         //          .ba
+        .sdram_cas_n      (DRAM_CAS_N),      //          .cas_n
+        .sdram_cke        (DRAM_CKE),        //          .cke
+        .sdram_cs_n       (DRAM_CS_N),       //          .cs_n
+        .sdram_dq         (DRAM_DQ),         //          .dq
+        .sdram_dqm        ({DRAM_UDQM, DRAM_LDQM}),        //          .dqm
+        .sdram_ras_n      (DRAM_RAS_N),      //          .ras_n
+        .sdram_we_n       (DRAM_WE_N),       //          .we_n
+        .sdram_clk_clk    (DRAM_CLK),     // sdram_clk.clk
+		  .led_export       (LEDG[9:0]),       //       led.export
+        .switch_export    (SW[5:0]),    //    switch.export
+        .button_export    (BUTTON[2:1]),    //    button.export
+        .seg7_export      (SEG7[15:0])       //      seg7.export
+    );
+
+
+	 DEC_7SEG seg0(.iHex_digit(SEG7[3:0]), .oHEX({HEX0_DP, HEX0_D[6:0]}));
+	 DEC_7SEG seg1(.iHex_digit(SEG7[7:4]), .oHEX({HEX1_DP, HEX1_D[6:0]}));
+	 DEC_7SEG seg2(.iHex_digit(SEG7[11:8]), .oHEX({HEX2_DP, HEX2_D[6:0]}));
+	 DEC_7SEG seg3(.iHex_digit(SEG7[15:12]), .oHEX({HEX3_DP, HEX3_D[6:0]}));
+
+	 
 
 endmodule

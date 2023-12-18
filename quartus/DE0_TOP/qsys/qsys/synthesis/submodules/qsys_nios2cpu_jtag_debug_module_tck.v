@@ -128,7 +128,8 @@ module qsys_nios2cpu_jtag_debug_module_tck (
               end // 2'b10 
           
               2'b11: begin
-                  sr[15 : 2] <= trc_im_addr;
+                  sr[15 : 12] <= 1'b0;
+                  sr[11 : 2] <= trc_im_addr;
                   sr[1] <= trc_wrap;
                   sr[0] <= trc_on;
               end // 2'b11 

@@ -1,0 +1,125 @@
+/*
+ * "Hello World" example.
+ *
+ * This example prints 'Hello from Nios II' to the STDOUT stream. It runs on
+ * the Nios II 'standard', 'full_featured', 'fast', and 'low_cost' example
+ * designs. It runs with or without the MicroC/OS-II RTOS and requires a STDOUT
+ * device in your system's hardware.
+ * The memory footprint of this hosted application is ~69 kbytes by default
+ * using the standard reference design.
+ *
+ * For a reduced footprint version of this template, and an explanation of how
+ * to reduce the memory footprint for a given application, see the
+ * "small_hello_world" template.
+ *
+ */
+
+#include <stdio.h>
+#include <system.h>
+#include <io.h>
+#include <unistd.h>
+#include <altera_avalon_timer_regs.h>
+#include <stdint.h>
+
+// 0: target floor display
+// 1: target floor setting
+// 2: speed display
+// 3: speed setting
+int mode = 0;
+
+uint16_t current_floor = 12;
+uint16_t target_floor = 1;
+uint16_t speed = 10;
+
+
+void value_to_seg7(uint16_t val, uint16_t seg7[]) {
+	seg7[0] = val % 10;
+	seg7[1] = (val - seg7[0]) / 10;
+}
+
+
+int main()
+{
+	printf("Hello from Nios II!\n");
+	while(1) {
+		int sw = IORD(BUTTON_BASE, 3);
+		// target floor display mode
+		if(mode == 0) {
+			// button 1 pressed
+			if(sw & 0x01) {
+				printf("m0 sw1\n");
+				// goto floor setting mode
+				mode = 1;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			// button 2 pressed
+			}else if(sw & 0x02) {
+				printf("m0 sw2\n");
+				// goto speed display mode
+				mode = 2;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			}
+		// target floor setting mode
+		}else if(mode == 1) {
+			// button 1 pressed
+			if(sw & 0x01) {
+				printf("m1 sw1\n");
+				// goto floor display mode
+				mode = 0;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			// button 2 pressed
+			}else if(sw & 0x02) {
+				printf("m1 sw2\n");
+				// goto floor display mode
+				mode = 0;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			}
+		// speed display mode
+		}else if(mode == 2) {
+			// button 1 pressed
+			if(sw & 0x01) {
+				printf("m2 sw1\n");
+				// goto floor display mode
+				mode = 0;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			// button 2 pressed
+			}else if(sw & 0x02) {
+				printf("m2 sw2\n");
+				// goto speed setting mode
+				mode = 3;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			}
+		// speed setting mode
+		}else if(mode == 3) {
+			// button 1 pressed
+			if(sw & 0x01) {
+				printf("m3 sw1\n");
+				// goto speed display mode
+				mode = 2;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			// button 2 pressed
+			}else if(sw & 0x02) {
+				printf("m3 sw2\n");
+				// goto speed display mode
+				mode = 2;
+				// clear button edge capture register
+				IOWR(BUTTON_BASE, 3, 0);
+			}
+		}
+
+
+		uint16_t current_floor_seg7[2];
+		value_to_seg7(current_floor, current_floor_seg7);
+		//uint16_t tmp = current_floor_seg7[0] << 8 | current_floor_seg7[1] << 12;
+		//printf("tmp:%u\n", tmp);
+		IOWR(SEG7_BASE, 0, current_floor_seg7[0] << 8 | current_floor_seg7[1] << 12);
+	}
+
+  return 0;
+}
