@@ -1,1001 +1,1480 @@
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 5324 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 19044 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 12040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Building ../final_bsp/
 make --no-print-directory -C ../final_bsp/
+      3 [main] pwd 17252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 18668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 7184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_alarm_start.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 6384 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_alarm_start.o HAL/src/alt_alarm_start.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 19088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_busy_sleep.c...
+      3 [main] mkdir 10040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_busy_sleep.o HAL/src/alt_busy_sleep.c
+      4 [main] echo 18740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_close.c...
+      2 [main] mkdir 2928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_close.o HAL/src/alt_close.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 10036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_dcache_flush.c...
+      2 [main] mkdir 16344 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush.o HAL/src/alt_dcache_flush.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 5280 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dcache_flush_all.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 19216 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush_all.o HAL/src/alt_dcache_flush_all.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_dcache_flush_no_writeback.c...
+      2 [main] echo 6592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 2840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dcache_flush_no_writeback.o HAL/src/alt_dcache_flush_no_writeback.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_dev.c...
+      2 [main] echo 11824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 9364 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dev.o HAL/src/alt_dev.c
+      2 [main] echo 3488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_dev_llist_insert.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 16468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dev_llist_insert.o HAL/src/alt_dev_llist_insert.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_dma_rxchan_open.c...
+      3 [main] echo 13552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dma_rxchan_open.o HAL/src/alt_dma_rxchan_open.c
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 11944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_dma_txchan_open.c...
+      2 [main] echo 18592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_dma_txchan_open.o HAL/src/alt_dma_txchan_open.c
+the public mailing list cygwin@cygwin.com
+    514 [main] mkdir 17148 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      4 [main] echo 17808 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_do_ctors.c...
+      4 [main] mkdir 8736 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_do_ctors.o HAL/src/alt_do_ctors.c
+the public mailing list cygwin@cygwin.com
+      6 [main] echo 11556 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_do_dtors.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 1912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_do_dtors.o HAL/src/alt_do_dtors.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 13848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_ecc_fatal_entry.S...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 4960 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_ecc_fatal_entry.o HAL/src/alt_ecc_fatal_entry.S
+the public mailing list cygwin@cygwin.com
+Compiling alt_ecc_fatal_exception.c...
+     23 [main] echo 7136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_ecc_fatal_exception.o HAL/src/alt_ecc_fatal_exception.c
+Compiling alt_env_lock.c...
+    268 [main] mkdir 17928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_env_lock.o HAL/src/alt_env_lock.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 9660 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 7772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      5 [main] echo 15624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_environ.c...
+      2 [main] mkdir 15000 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_environ.o HAL/src/alt_environ.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 9708 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_errno.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 6348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_errno.o HAL/src/alt_errno.c
+      2 [main] echo 3576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_exception_entry.S...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 10532 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_entry.o HAL/src/alt_exception_entry.S
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 11964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_exception_muldiv.S...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 16252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_muldiv.o HAL/src/alt_exception_muldiv.S
+Compiling alt_exception_trap.S...
+      2 [main] echo 15500 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 16908 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_exception_trap.o HAL/src/alt_exception_trap.S
+the public mailing list cygwin@cygwin.com
+Compiling alt_execve.c...
+      2 [main] echo 6832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_execve.o HAL/src/alt_execve.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 5652 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 6888 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_exit.c...
+the public mailing list cygwin@cygwin.com
+      4 [main] mkdir 17992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_exit.o HAL/src/alt_exit.c
+the public mailing list cygwin@cygwin.com
+     34 [main] echo 16492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fcntl.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 15592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fcntl.o HAL/src/alt_fcntl.c
+    180 [main] echo 1124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fd_lock.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 5352 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fd_lock.o HAL/src/alt_fd_lock.c
+      2 [main] echo 2052 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fd_unlock.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 9400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fd_unlock.o HAL/src/alt_fd_unlock.c
+      2 [main] echo 3744 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_find_dev.c...
+      3 [main] mkdir 2396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_find_dev.o HAL/src/alt_find_dev.c
+the public mailing list cygwin@cygwin.com
+     11 [main] echo 16888 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_find_file.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 5500 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_find_file.o HAL/src/alt_find_file.c
+      2 [main] echo 18244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_flash_dev.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 17692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_flash_dev.o HAL/src/alt_flash_dev.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 15692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_fork.c...
+    401 [main] mkdir 6016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fork.o HAL/src/alt_fork.c
+the public mailing list cygwin@cygwin.com
+      4 [main] echo 6444 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_fs_reg.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 15048 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fs_reg.o HAL/src/alt_fs_reg.c
+      6 [main] echo 9892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_fstat.c...
+      3 [main] mkdir 13172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_fstat.o HAL/src/alt_fstat.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 6520 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_get_fd.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 13644 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_get_fd.o HAL/src/alt_get_fd.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 11560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_getchar.c...
+     53 [main] mkdir 16760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_getchar.o HAL/src/alt_getchar.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 5664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_getpid.c...
+the public mailing list cygwin@cygwin.com
+      4 [main] mkdir 6588 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_getpid.o HAL/src/alt_getpid.c
+      4 [main] echo 12396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_gettod.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 7716 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_gettod.o HAL/src/alt_gettod.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 8576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_gmon.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 8720 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_gmon.o HAL/src/alt_gmon.c
+the public mailing list cygwin@cygwin.com
+      6 [main] echo 15924 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_icache_flush.c...
+the public mailing list cygwin@cygwin.com
+      4 [main] mkdir 8636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_icache_flush.o HAL/src/alt_icache_flush.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 7964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_icache_flush_all.c...
+      3 [main] mkdir 5112 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_icache_flush_all.o HAL/src/alt_icache_flush_all.c
+      4 [main] echo 1824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_iic.c...
+the public mailing list cygwin@cygwin.com
+      4 [main] mkdir 3692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_iic.o HAL/src/alt_iic.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 4356 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_iic_isr_register.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 17964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_iic_isr_register.o HAL/src/alt_iic_isr_register.c
+      2 [main] echo 10896 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_instruction_exception_entry.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 16452 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_instruction_exception_entry.o HAL/src/alt_instruction_exception_entry.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_instruction_exception_register.c...
+      3 [main] echo 8508 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 17476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_instruction_exception_register.o HAL/src/alt_instruction_exception_register.c
+the public mailing list cygwin@cygwin.com
+Compiling alt_io_redirect.c...
+      2 [main] echo 14032 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_io_redirect.o HAL/src/alt_io_redirect.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 15664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 13916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_ioctl.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 4436 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_ioctl.o HAL/src/alt_ioctl.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 11952 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_irq_entry.S...
+      3 [main] mkdir 1660 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_irq_entry.o HAL/src/alt_irq_entry.S
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 16308 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_irq_handler.c...
+      3 [main] mkdir 12368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_handler.o HAL/src/alt_irq_handler.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 18780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_irq_register.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 11540 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_register.o HAL/src/alt_irq_register.c
+the public mailing list cygwin@cygwin.com
+      6 [main] echo 19248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_irq_vars.c...
+      3 [main] mkdir 8088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_irq_vars.o HAL/src/alt_irq_vars.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 4800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_isatty.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 18440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_isatty.o HAL/src/alt_isatty.c
+      3 [main] echo 5304 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_kill.c...
+      2 [main] mkdir 17616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_kill.o HAL/src/alt_kill.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 10904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_link.c...
+      3 [main] mkdir 10872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_link.o HAL/src/alt_link.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 18184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_load.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 17232 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_load.o HAL/src/alt_load.c
+HAL/src/alt_load.c: In function 'alt_load':
+HAL/src/alt_load.c:62:21: warning: taking address of expression of type 'void' [enabled by default]
+HAL/src/alt_load.c:63:19: warning: taking address of expression of type 'void' [enabled by default]
+HAL/src/alt_load.c:64:19: warning: taking address of expression of type 'void' [enabled by default]
+HAL/src/alt_load.c:70:21: warning: taking address of expression of type 'void' [enabled by default]
+Compiling alt_log_macro.S...
+HAL/src/alt_load.c:71:19: warning: taking address of expression of type 'void' [enabled by default]
+HAL/src/alt_load.c:72:19: warning: taking address of expression of type 'void' [enabled by default]
+HAL/src/alt_load.c:78:21: warning: taking address of expression of type 'void' [enabled by default]
+HAL/src/alt_load.c:79:19: warning: taking address of expression of type 'void' [enabled by default]
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_log_macro.o HAL/src/alt_log_macro.S
+HAL/src/alt_load.c:80:19: warning: taking address of expression of type 'void' [enabled by default]
+      3 [main] echo 2476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+     38 [main] mkdir 4752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 8080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_log_printf.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 13296 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_log_printf.o HAL/src/alt_log_printf.c
+the public mailing list cygwin@cygwin.com
+      6 [main] echo 13620 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_lseek.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 15200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_lseek.o HAL/src/alt_lseek.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 11608 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_main.c...
+      2 [main] mkdir 8008 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_main.o HAL/src/alt_main.c
+the public mailing list cygwin@cygwin.com
+      4 [main] echo 14728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_malloc_lock.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 9284 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_malloc_lock.o HAL/src/alt_malloc_lock.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 14312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_mcount.S...
+      2 [main] mkdir 2124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_mcount.o HAL/src/alt_mcount.S
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 4728 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_open.c...
+      3 [main] mkdir 18772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_open.o HAL/src/alt_open.c
+      2 [main] echo 14464 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_printf.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 284 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_printf.o HAL/src/alt_printf.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 12500 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_putchar.c...
+the public mailing list cygwin@cygwin.com
+   2005 [main] mkdir 9632 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_putchar.o HAL/src/alt_putchar.c
+the public mailing list cygwin@cygwin.com
+      5 [main] echo 12056 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_putstr.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 9332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_putstr.o HAL/src/alt_putstr.c
+the public mailing list cygwin@cygwin.com
+      6 [main] echo 16764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_read.c...
+the public mailing list cygwin@cygwin.com
+      4 [main] mkdir 17280 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_read.o HAL/src/alt_read.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 15196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_release_fd.c...
+      2 [main] mkdir 9696 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_release_fd.o HAL/src/alt_release_fd.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 18040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_remap_cached.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 16444 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_remap_cached.o HAL/src/alt_remap_cached.c
+      3 [main] echo 18196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_remap_uncached.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 16164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_remap_uncached.o HAL/src/alt_remap_uncached.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 10404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_rename.c...
+the public mailing list cygwin@cygwin.com
+    355 [main] mkdir 9316 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_rename.o HAL/src/alt_rename.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 17976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_sbrk.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 3440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_sbrk.o HAL/src/alt_sbrk.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 3576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_settod.c...
+      2 [main] mkdir 16976 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_settod.o HAL/src/alt_settod.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 14208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_software_exception.S...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 6368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/alt_software_exception.o HAL/src/alt_software_exception.S
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 3544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_stat.c...
+      3 [main] mkdir 9480 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_stat.o HAL/src/alt_stat.c
+      2 [main] echo 16328 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_tick.c...
+      3 [main] mkdir 15780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_tick.o HAL/src/alt_tick.c
+      2 [main] echo 18888 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_times.c...
+      3 [main] mkdir 13548 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_times.o HAL/src/alt_times.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 16144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_uncached_free.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 1116 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_uncached_free.o HAL/src/alt_uncached_free.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 1124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_uncached_malloc.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 6512 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_uncached_malloc.o HAL/src/alt_uncached_malloc.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 10424 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_unlink.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 13988 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_unlink.o HAL/src/alt_unlink.c
+      6 [main] echo 15916 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling alt_usleep.c...
+the public mailing list cygwin@cygwin.com
+      4 [main] mkdir 8868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_usleep.o HAL/src/alt_usleep.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 8732 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_wait.c...
+      2 [main] mkdir 10392 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_wait.o HAL/src/alt_wait.c
+the public mailing list cygwin@cygwin.com
+      6 [main] echo 17248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_write.c...
+    908 [main] mkdir 11208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/alt_write.o HAL/src/alt_write.c
+the public mailing list cygwin@cygwin.com
+Compiling altera_nios2_qsys_irq.c...
+    206 [main] echo 8092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 10680 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/HAL/src/altera_nios2_qsys_irq.o HAL/src/altera_nios2_qsys_irq.c
+the public mailing list cygwin@cygwin.com
+      6 [main] echo 6444 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling crt0.S...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 8448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -MP -MMD -c   -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx    -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED  -Wa,-gdwarf2  -o obj/HAL/src/crt0.o HAL/src/crt0.S
+      8 [main] echo 2500 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling alt_sys_init.c...
+      2 [main] mkdir 12300 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/alt_sys_init.o alt_sys_init.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 15928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_fd.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 17984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_fd.o drivers/src/altera_avalon_jtag_uart_fd.c
+      3 [main] echo 4948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_init.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 17348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_init.o drivers/src/altera_avalon_jtag_uart_init.c
+the public mailing list cygwin@cygwin.com
+      6 [main] echo 5664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_ioctl.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 19288 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o drivers/src/altera_avalon_jtag_uart_ioctl.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 18920 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_read.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 19240 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_read.o drivers/src/altera_avalon_jtag_uart_read.c
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 11460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_jtag_uart_write.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 8628 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_jtag_uart_write.o drivers/src/altera_avalon_jtag_uart_write.c
+      2 [main] echo 12376 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_timer_sc.c...
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 5940 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_sc.o drivers/src/altera_avalon_timer_sc.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 10912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Compiling altera_avalon_timer_ts.c...
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 19352 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_ts.o drivers/src/altera_avalon_timer_ts.c
+the public mailing list cygwin@cygwin.com
+drivers/src/altera_avalon_timer_ts.c: In function 'alt_timestamp':
+drivers/src/altera_avalon_timer_ts.c:108:9: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+drivers/src/altera_avalon_timer_ts.c:122:9: warning: left shift count >= width of type [enabled by default]
+drivers/src/altera_avalon_timer_ts.c:122:9: warning: left shift count >= width of type [enabled by default]
+      8 [main] echo 1824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Compiling altera_avalon_timer_vars.c...
+      3 [main] mkdir 1636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c  -I./HAL/inc -I. -I./drivers/inc -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall  -mno-hw-div -mno-hw-mul -mno-hw-mulx   -o obj/drivers/src/altera_avalon_timer_vars.o drivers/src/altera_avalon_timer_vars.c
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 2744 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+Creating libhal_bsp.a...
+the public mailing list cygwin@cygwin.com
+rm -f -f libhal_bsp.a
+      2 [main] rm 18388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-ar -src libhal_bsp.a obj/HAL/src/alt_alarm_start.o obj/HAL/src/alt_busy_sleep.o obj/HAL/src/alt_close.o obj/HAL/src/alt_dcache_flush.o obj/HAL/src/alt_dcache_flush_all.o obj/HAL/src/alt_dcache_flush_no_writeback.o obj/HAL/src/alt_dev.o obj/HAL/src/alt_dev_llist_insert.o obj/HAL/src/alt_dma_rxchan_open.o obj/HAL/src/alt_dma_txchan_open.o obj/HAL/src/alt_do_ctors.o obj/HAL/src/alt_do_dtors.o obj/HAL/src/alt_ecc_fatal_entry.o obj/HAL/src/alt_ecc_fatal_exception.o obj/HAL/src/alt_env_lock.o obj/HAL/src/alt_environ.o obj/HAL/src/alt_errno.o obj/HAL/src/alt_exception_entry.o obj/HAL/src/alt_exception_muldiv.o obj/HAL/src/alt_exception_trap.o obj/HAL/src/alt_execve.o obj/HAL/src/alt_exit.o obj/HAL/src/alt_fcntl.o obj/HAL/src/alt_fd_lock.o obj/HAL/src/alt_fd_unlock.o obj/HAL/src/alt_find_dev.o obj/HAL/src/alt_find_file.o obj/HAL/src/alt_flash_dev.o obj/HAL/src/alt_fork.o obj/HAL/src/alt_fs_reg.o obj/HAL/src/alt_fstat.o obj/HAL/src/alt_get_fd.o obj/HAL/src/alt_getchar.o obj/HAL/src/alt_getpid.o obj/HAL/src/alt_gettod.o obj/HAL/src/alt_gmon.o obj/HAL/src/alt_icache_flush.o obj/HAL/src/alt_icache_flush_all.o obj/HAL/src/alt_iic.o obj/HAL/src/alt_iic_isr_register.o obj/HAL/src/alt_instruction_exception_entry.o obj/HAL/src/alt_instruction_exception_register.o obj/HAL/src/alt_io_redirect.o obj/HAL/src/alt_ioctl.o obj/HAL/src/alt_irq_entry.o obj/HAL/src/alt_irq_handler.o obj/HAL/src/alt_irq_register.o obj/HAL/src/alt_irq_vars.o obj/HAL/src/alt_isatty.o obj/HAL/src/alt_kill.o obj/HAL/src/alt_link.o obj/HAL/src/alt_load.o obj/HAL/src/alt_log_macro.o obj/HAL/src/alt_log_printf.o obj/HAL/src/alt_lseek.o obj/HAL/src/alt_main.o obj/HAL/src/alt_malloc_lock.o obj/HAL/src/alt_mcount.o obj/HAL/src/alt_open.o obj/HAL/src/alt_printf.o obj/HAL/src/alt_putchar.o obj/HAL/src/alt_putstr.o obj/HAL/src/alt_read.o obj/HAL/src/alt_release_fd.o obj/HAL/src/alt_remap_cached.o obj/HAL/src/alt_remap_uncached.o obj/HAL/src/alt_rename.o obj/HAL/src/alt_sbrk.o obj/HAL/src/alt_settod.o obj/HAL/src/alt_software_exception.o obj/HAL/src/alt_stat.o obj/HAL/src/alt_tick.o obj/HAL/src/alt_times.o obj/HAL/src/alt_uncached_free.o obj/HAL/src/alt_uncached_malloc.o obj/HAL/src/alt_unlink.o obj/HAL/src/alt_usleep.o obj/HAL/src/alt_wait.o obj/HAL/src/alt_write.o obj/HAL/src/altera_nios2_qsys_irq.o obj/HAL/src/crt0.o obj/alt_sys_init.o obj/drivers/src/altera_avalon_jtag_uart_fd.o obj/drivers/src/altera_avalon_jtag_uart_init.o obj/drivers/src/altera_avalon_jtag_uart_ioctl.o obj/drivers/src/altera_avalon_jtag_uart_read.o obj/drivers/src/altera_avalon_jtag_uart_write.o obj/drivers/src/altera_avalon_timer_sc.o obj/drivers/src/altera_avalon_timer_ts.o obj/drivers/src/altera_avalon_timer_vars.o
+      6 [main] sh 11184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 15148 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c:31: error: 'FLOOR_DISPLAY_MODE' undeclared here (not in a function)
-hello_world.c: In function 'main':
-hello_world.c:45: error: expected ';' before '__builtin_stwio'
-make: *** [obj/default/hello_world.o] Error 1
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+    268 [main] mkdir 8140 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] true 576 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 15484 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8156 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      3 [main] sh 13772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 16392 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 18744 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      3 [main] echo 17844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 19312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 9200 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 8112 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 14264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 12872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 4832 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 13088 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      2 [main] true 14052 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 8792 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 15340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 1944 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 15820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 8384 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 7244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 58 KBytes program size (code + initialized data).
-Info:             8127 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      2 [main] true 14928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 13264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 12840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 16580 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 11156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 10388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 5092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 13036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 14444 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+      2 [main] true 3600 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 1180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 58 KBytes program size (code + initialized data).
-Info:             8127 KBytes free for stack + heap.
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      2 [main] sh 11628 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 6544 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 12332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 5164 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      2 [main] sh 12772 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 7396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 13856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 1500 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 1592 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 12408 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 18692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 3360 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 18540 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 5992 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      1 [main] true 18372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 9332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      2 [main] sh 11120 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 17340 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 18300 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 16492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      2 [main] sh 68 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 18308 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 16060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 18300 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 6388 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 5032 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 2468 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 12168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 18332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 12608 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+      2 [main] true 17672 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 9400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      2 [main] sh 2980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 19416 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      5 [main] sh 9764 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 6876 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      2 [main] sh 13432 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 13172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      1 [main] sh 17020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 1124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 12116 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      1 [main] pwd 14152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 14048 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9144 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      1 [main] echo 13060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+      2 [main] mkdir 3968 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] true 6400 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 13980 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      1 [main] sh 15020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 2124 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 6892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 8080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Creating final.objdump
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      2 [main] sh 17844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 11308 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 19040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 5748 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 12304 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Building ../final_bsp/
 make --no-print-directory -C ../final_bsp/
+      1 [main] pwd 3596 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 4160 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 9668 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      1 [main] echo 18516 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'value_to_seg7':
-hello_world.c:39: error: 'current_floor_seg7' undeclared (first use in this function)
-hello_world.c:39: error: (Each undeclared identifier is reported only once
-hello_world.c:39: error: for each function it appears in.)
-hello_world.c: In function 'main':
-hello_world.c:119: warning: unused variable 'current_floor_seg7'
-make: *** [obj/default/hello_world.o] Error 1
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'value_to_seg7':
-hello_world.c:39: warning: suggest parentheses around + or - inside shift
-hello_world.c: In function 'main':
-hello_world.c:119: warning: unused variable 'current_floor_seg7'
+the public mailing list cygwin@cygwin.com
+      1 [main] mkdir 16700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] true 2756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 1912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      3 [main] sh 15724 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 7956 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+     21 [main] sh 18536 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 18372 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Creating final.objdump
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      2 [main] sh 5868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      7 [main] sh 10516 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      1 [main] sh 15968 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 18460 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] echo 15600 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      1 [main] pwd 5092 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 5348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      1 [main] sh 12108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      1 [main] echo 13108 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+      2 [main] mkdir 7560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+      2 [main] true 18040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 9492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      1 [main] sh 11440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 12064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 16432 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 16820 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      1 [main] sh 6036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 18768 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 14196 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 10716 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+     71 [main] echo 15256 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Building ../final_bsp/
 make --no-print-directory -C ../final_bsp/
+      4 [main] pwd 17028 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 13904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      4 [main] sh 10928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 11244 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 14808 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      3 [main] true 11492 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 20396 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      2 [main] sh 9076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 18868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 16168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      3 [main] echo 9824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+the public mailing list cygwin@cygwin.com
+    274 [main] sh 2136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      7 [main] sh 15004 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 12156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 3600 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 14532 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
 make --no-print-directory -C ../final_bsp/
+the public mailing list cygwin@cygwin.com
+      2 [main] pwd 16252 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 10736 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 17288 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      3 [main] echo 8964 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+   2128 [main] mkdir 2852 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] true 12824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 17908 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      5 [main] sh 5624 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 6476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 2312 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      3 [main] echo 16560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 19016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 6628 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 13848 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 14880 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 4888 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 18984 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 16156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 16168 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 2692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'main':
-hello_world.c:56: warning: too few arguments for format
-hello_world.c:56: warning: too few arguments for format
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 17640 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+      3 [main] true 9016 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 8800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 58 KBytes program size (code + initialized data).
-Info:             8126 KBytes free for stack + heap.
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      5 [main] sh 10640 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 14872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 19856 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 17752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+     64 [main] sh 16172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 17380 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 9392 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 6664 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 5488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
 make --no-print-directory -C ../final_bsp/
+the public mailing list cygwin@cygwin.com
+      2 [main] pwd 1872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 4180 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 15868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      3 [main] echo 1824 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'main':
-hello_world.c:56: warning: too few arguments for format
-hello_world.c:56: warning: too few arguments for format
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 17020 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] true 5404 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 7248 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 58 KBytes program size (code + initialized data).
-Info:             8126 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      4 [main] sh 19760 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+   1254 [main] uname 1712 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 19844 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      4 [main] echo 16412 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      4 [main] sh 16060 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      7 [main] sh 10716 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
 Info: Building ../final_bsp/
+      2 [main] sh 11948 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 make --no-print-directory -C ../final_bsp/
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 13072 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 13788 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] pwd 8800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      8 [main] sh 12884 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 17672 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      3 [main] echo 14872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 15912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      3 [main] true 5488 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 1872 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 58 KBytes program size (code + initialized data).
-Info:             8126 KBytes free for stack + heap.
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      3 [main] sh 19736 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] uname 17752 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 6048 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 17392 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      4 [main] sh 18816 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 14304 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 3892 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 19692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 18448 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 6416 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 5348 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 13700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 11940 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 2172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] true 16208 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 19596 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 29 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+   4683 [main] sh 15780 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 20436 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 10476 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      2 [main] echo 11296 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      3 [main] sh 12332 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 8656 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 13868 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 19800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 20216 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 14204 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 20224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 19724 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 3040 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 18756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      4 [main] true 16600 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 6656 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 30 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      3 [main] sh 13840 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 19792 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 20036 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8125 KBytes free for stack + heap.
+      3 [main] echo 16808 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+  17142 [main] sh 17552 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 8800 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 10236 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      4 [main] sh 12616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 12876 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 Info: Building ../final_bsp/
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 18224 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 15264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 15880 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 18352 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 19952 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      5 [main] true 16740 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 18888 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 30 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      4 [main] sh 2812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 19912 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      8 [main] sh 14264 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8124 KBytes free for stack + heap.
+      2 [main] echo 20284 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+      3 [main] sh 13896 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      5 [main] sh 620 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 4564 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 20184 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 13080 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      2 [main] pwd 19560 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] sh 19620 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 17160 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 20424 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] mkdir 5440 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      2 [main] true 19692 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 3808 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 30 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      2 [main] sh 2172 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+    628 [main] uname 18616 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      7 [main] sh 16152 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8124 KBytes free for stack + heap.
+      4 [main] echo 4064 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+    407 [main] sh 7004 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 14756 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****
 
-**** Build of configuration Nios II for project final ****
+**** Build of configuration Nios II for project final_laptop ****
 
 make all 
+      2 [main] sh 16928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 18636 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] echo 6928 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Building ../final_bsp/
+the public mailing list cygwin@cygwin.com
 make --no-print-directory -C ../final_bsp/
+      3 [main] pwd 20096 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 20368 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] sh 1904 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [BSP build complete]
+      2 [main] echo 12812 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+the public mailing list cygwin@cygwin.com
+      3 [main] mkdir 12156 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
+      8 [main] true 20076 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      3 [main] echo 12236 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 30 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
+the public mailing list cygwin@cygwin.com
+nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
+nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys" --sopcinfo D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+      3 [main] sh 6416 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      2 [main] uname 13700 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 14684 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+Info: (final.elf) 60 KBytes program size (code + initialized data).
+Info:             8124 KBytes free for stack + heap.
+      4 [main] echo 18136 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
 Info: Creating final.objdump
+the public mailing list cygwin@cygwin.com
 nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 30 KBytes program size (code + initialized data).
-Info:             8155 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'main':
-hello_world.c:131: error: 'blink_status' undeclared (first use in this function)
-hello_world.c:131: error: (Each undeclared identifier is reported only once
-hello_world.c:131: error: for each function it appears in.)
-make: *** [obj/default/hello_world.o] Error 1
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'main':
-hello_world.c:101: warning: suggest parentheses around assignment used as truth value
-hello_world.c:107: error: expected ';' before '}' token
-make: *** [obj/default/hello_world.o] Error 1
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'main':
-hello_world.c:101: warning: suggest parentheses around assignment used as truth value
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 19 KBytes program size (code + initialized data).
-Info:             8167 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 19 KBytes program size (code + initialized data).
-Info:             8167 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'main':
-hello_world.c:126: error: 'test' undeclared (first use in this function)
-hello_world.c:126: error: (Each undeclared identifier is reported only once
-hello_world.c:126: error: for each function it appears in.)
-make: *** [obj/default/hello_world.o] Error 1
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-hello_world.c: In function 'main':
-hello_world.c:167: error: 'timer_base' undeclared (first use in this function)
-hello_world.c:167: error: (Each undeclared identifier is reported only once
-hello_world.c:167: error: for each function it appears in.)
-make: *** [obj/default/hello_world.o] Error 1
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 32 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8152 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8151 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 33 KBytes program size (code + initialized data).
-Info:             8151 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
-[final build complete]
-
-**** Build Finished ****
-
-**** Build of configuration Nios II for project final ****
-
-make all 
-Info: Building ../final_bsp/
-make --no-print-directory -C ../final_bsp/
-[BSP build complete]
-Info: Compiling hello_world.c to obj/default/hello_world.o
-nios2-elf-gcc -xc -MP -MMD -c -I../final_bsp//HAL/inc -I../final_bsp/ -I../final_bsp//drivers/inc  -DSYSTEM_BUS_WIDTH=32 -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o obj/default/hello_world.o hello_world.c
-Info: Linking final.elf
-nios2-elf-g++  -T'../final_bsp//linker.x' -msys-crt0='../final_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../final_bsp/   -Wl,-Map=final.map   -O0 -g -Wall -std=c99  -EL -mno-hw-div -mno-hw-mul -mno-hw-mulx  -o final.elf obj/default/hello_world.o -lm 
-nios2-elf-insert final.elf --thread_model hal --cpu_name nios2cpu --qsys true --simulation_enabled false --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name qsys --quartus_project_dir "C:/robot_experiment_final/quartus/DE0_TOP/qsys" --sopcinfo C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
-Info: (final.elf) 61 KBytes program size (code + initialized data).
-Info:             8123 KBytes free for stack + heap.
-Info: Creating final.objdump
-nios2-elf-objdump --disassemble --syms --all-header --source final.elf >final.objdump
+    279 [main] sh 17672 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
+      6 [main] sh 13788 find_fast_cwd: WARNING: Couldn't compute FAST_CWD pointer.  Please report this problem to
+the public mailing list cygwin@cygwin.com
 [final build complete]
 
 **** Build Finished ****

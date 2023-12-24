@@ -2,9 +2,9 @@
  * system.h - SOPC Builder system and BSP software package information
  *
  * Machine generated for CPU 'nios2cpu' in SOPC Builder design 'qsys'
- * SOPC Builder design path: C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+ * SOPC Builder design path: D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
  *
- * Generated: Mon Dec 18 09:48:04 CST 2023
+ * Generated: Thu Dec 21 16:23:41 CST 2023
  */
 
 /*
@@ -62,7 +62,7 @@
 
 #define ALT_CPU_ARCHITECTURE "altera_nios2_qsys"
 #define ALT_CPU_BIG_ENDIAN 0
-#define ALT_CPU_BREAK_ADDR 0x3000820
+#define ALT_CPU_BREAK_ADDR 0x03000820
 #define ALT_CPU_CPU_FREQ 133333328u
 #define ALT_CPU_CPU_ID_SIZE 1
 #define ALT_CPU_CPU_ID_VALUE 0x00000000
@@ -71,7 +71,7 @@
 #define ALT_CPU_DCACHE_LINE_SIZE 0
 #define ALT_CPU_DCACHE_LINE_SIZE_LOG2 0
 #define ALT_CPU_DCACHE_SIZE 0
-#define ALT_CPU_EXCEPTION_ADDR 0x2800020
+#define ALT_CPU_EXCEPTION_ADDR 0x02800020
 #define ALT_CPU_FLUSHDA_SUPPORTED
 #define ALT_CPU_FREQ 133333328
 #define ALT_CPU_HARDWARE_DIVIDE_PRESENT 0
@@ -85,7 +85,7 @@
 #define ALT_CPU_ICACHE_SIZE 0
 #define ALT_CPU_INST_ADDR_WIDTH 0x1a
 #define ALT_CPU_NAME "nios2cpu"
-#define ALT_CPU_RESET_ADDR 0x2800000
+#define ALT_CPU_RESET_ADDR 0x02800000
 
 
 /*
@@ -94,7 +94,7 @@
  */
 
 #define NIOS2_BIG_ENDIAN 0
-#define NIOS2_BREAK_ADDR 0x3000820
+#define NIOS2_BREAK_ADDR 0x03000820
 #define NIOS2_CPU_FREQ 133333328u
 #define NIOS2_CPU_ID_SIZE 1
 #define NIOS2_CPU_ID_VALUE 0x00000000
@@ -103,7 +103,7 @@
 #define NIOS2_DCACHE_LINE_SIZE 0
 #define NIOS2_DCACHE_LINE_SIZE_LOG2 0
 #define NIOS2_DCACHE_SIZE 0
-#define NIOS2_EXCEPTION_ADDR 0x2800020
+#define NIOS2_EXCEPTION_ADDR 0x02800020
 #define NIOS2_FLUSHDA_SUPPORTED
 #define NIOS2_HARDWARE_DIVIDE_PRESENT 0
 #define NIOS2_HARDWARE_MULTIPLY_PRESENT 0
@@ -115,7 +115,7 @@
 #define NIOS2_ICACHE_LINE_SIZE_LOG2 0
 #define NIOS2_ICACHE_SIZE 0
 #define NIOS2_INST_ADDR_WIDTH 0x1a
-#define NIOS2_RESET_ADDR 0x2800000
+#define NIOS2_RESET_ADDR 0x02800000
 
 
 /*

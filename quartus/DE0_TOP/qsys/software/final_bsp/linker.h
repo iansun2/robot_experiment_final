@@ -2,9 +2,9 @@
  * linker.h - Linker script mapping information
  *
  * Machine generated for CPU 'nios2cpu' in SOPC Builder design 'qsys'
- * SOPC Builder design path: C:/robot_experiment_final/quartus/DE0_TOP/qsys/qsys.sopcinfo
+ * SOPC Builder design path: D:/Work/TKU/2U/robot_experiment/final/quartus/DE0_TOP/qsys/qsys.sopcinfo
  *
- * Generated: Mon Dec 18 09:31:53 CST 2023
+ * Generated: Thu Dec 21 16:23:40 CST 2023
  */
 
 /*

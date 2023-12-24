@@ -28,12 +28,14 @@
 int mode = 0;
 
 int16_t step = 0;
-uint16_t current_floor = 12;
-uint16_t target_floor = 1;
-uint16_t speed = 10;
+uint16_t current_floor = 0;
+uint16_t target_floor = 0;
+uint16_t speed = 32;
 
 // 0: on, 1: off
-uint8_t seg7_blink_status = 0;
+volatile uint8_t seg7_blink_status = 0;
+
+int step_en = 0;
 
 
 void value_to_seg7(uint16_t val, uint8_t pos) {
@@ -87,8 +89,25 @@ uint8_t isTimerOf(uint32_t timer_base) {
 
 
 void show_step() {
+	static int sw_pwm = 0;
 	uint16_t led = 0;
-	led = 0x1 << step;
+	if(!sw_pwm) {
+		if(mode == 0 || mode == 1) {
+			led = 0x100;
+		}else if(mode == 2 || mode == 3) {
+			led = 0x200;
+		}
+		sw_pwm++;
+	}else if(sw_pwm >= 8) {
+		sw_pwm = 0;
+	}else {
+		sw_pwm ++;
+	}
+
+	if(step_en) {
+		led |= 0x1 << step;
+	}
+
 	IOWR(LED_BASE, 0, led);
 }
 
@@ -139,12 +158,18 @@ int main()
 
 			if(isTimerOf(SEG7_TIMER_BASE)) {
 				if(seg7_blink_status == 0) {
+					printf("on\n");
 					value_to_seg7(sw, 0);
 					seg7_blink_status = 1;
 				}else {
+					printf("off\n");
 					seg7_off(0);
 					seg7_blink_status = 0;
 				}
+			}else if(seg7_blink_status == 0) {
+				value_to_seg7(sw, 0);
+			}else {
+				seg7_off(0);
 			}
 			// button 1 pressed
 			if(button & 0x01) {
@@ -193,6 +218,10 @@ int main()
 					seg7_off(0);
 					seg7_blink_status = 0;
 				}
+			}else if(seg7_blink_status == 0) {
+				value_to_seg7(sw, 0);
+			}else {
+				seg7_off(0);
 			}
 			// button 1 pressed
 			if(button & 0x01) {
@@ -207,7 +236,7 @@ int main()
 				// save sw as speed
 				speed = sw;
 				printf("new speed: %u\n", speed);
-				set_timer_period(FLOOR_TIMER_BASE, 0.005f * (speed+1));
+				set_timer_period(FLOOR_TIMER_BASE, 0.005f * (63-speed+1));
 				IOWR_ALTERA_AVALON_TIMER_CONTROL( /* 對TIMER_CONTROL暫存器做寫入 */
 							FLOOR_TIMER_BASE,                                /* timer的基底位址 */
 							ALTERA_AVALON_TIMER_CONTROL_START_MSK |    /* 啟動位元 */
@@ -221,31 +250,34 @@ int main()
 		}
 
 		// show current floor
-		value_to_seg7(current_floor, 8);
+		value_to_seg7(current_floor, 1);
 
 		// floor run
 		// up
 		if(current_floor < target_floor) {
+			step_en = 1;
 			if(isTimerOf(FLOOR_TIMER_BASE)) {
 				step ++;
 			}
-			if(step >= 10) {
+			if(step > 7) {
 				step = 0;
 				current_floor ++;
 			}
-			show_step();
 
 		// down
 		}else if(current_floor > target_floor) {
+			step_en = 1;
 			if(isTimerOf(FLOOR_TIMER_BASE)) {
 				step --;
 			}
 			if(step < 0) {
-				step = 9;
+				step = 7;
 				current_floor --;
 			}
-			show_step();
+		}else {
+			step_en = 0;
 		}
+		show_step();
 	}
 
   return 0;
